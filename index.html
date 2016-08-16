@@ -2,22 +2,66 @@
 layout: default
 ---
 
-<div class="home">
+<link rel="stylesheet" href="css/zerogrid.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/lightbox.css">
+<link rel="stylesheet" href="css/menu.css">
 
-  <h1 class="page-heading">Posts</h1>
+<header class="zerogrid">
+  <div class="logo"><img src="images/cat.png" alt="" style="width: 200px;height: 200px"/></div>
+  <div id='cssmenu' class="align-center">
+    <ul>
+      <li class="active"><a href='index.html'><span>Home</span></a></li>
+
+      <li class=' has-sub'><a href='#'><span>Menu</span></a>
+        <ul >
+          <li class='has-sub'><a href='#'><span>Item 1</span></a>
+            <ul>
+              <li><a href='#'><span>Sub Item</span></a></li>
+              <li class='last'><a href='#'><span>Sub Item</span></a></li>
+            </ul>
+          </li>
+          <li class='has-sub'><a href='#'><span>Item 2</span></a>
+            <ul>
+              <li><a href='#'><span>Sub Item</span></a></li>
+              <li class='last'><a href='#'><span>Sub Item</span></a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+
+      <li><a href='#'><span>About</span></a></li>
+
+      <li><a href='#'><span>Blog</span></a></li>
+
+      <li class='last'><a href='#'><span>Contacts</span></a></li>
+    </ul>
+  </div>
+  <!-- <h1 class="page-heading">大家好~我是黑皮貓!!</h1>
 
   <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  {% for post in site.posts %}
+  <li>
+  <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <h2>
+  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+</h2>
+</li>
+{% endfor %}
+</ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
 
-</div>
+</header>
+
+<section id="container">
+  <div class="header">
+    <br/><br/>
+    <h2>大家好~我是黑皮貓!!</h2>
+  </div>
+
+
+
+
+</section>
