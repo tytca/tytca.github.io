@@ -25,3 +25,11 @@ github_username:  tytca
 # Build settings
 markdown: kramdown
 # theme: minima
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "page"
