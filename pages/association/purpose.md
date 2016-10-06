@@ -1,8 +1,8 @@
 ---
 layout: imgPage
 title: 本會宗旨與願景
-img: cat.png
-permalink: /purpose/
+img: ../../images/cat.png
+permalink: /origin/purpose/
 ---
 
 願景：成為國內弱熱族群的心靈寄託及多元化的慈善團體

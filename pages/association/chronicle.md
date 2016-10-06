@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本會大事紀
-permalink: /chronicle/
+permalink: /origin/chronicle/
 ---
 
 | 年 | 月 | 日 | 紀  事 |
