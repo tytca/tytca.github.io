@@ -1,13 +1,16 @@
+{% if page.url contains "origin" %} {% assign is_origin = 'active' %} {% endif %}
+{% if page.url contains "news" %} {% assign is_news = 'active' %} {% endif %}
+
 <header class="zerogrid">
   <div class="logo"><a href="/index.html"><img src="/images/test.png"></a></div>
   <div id="cssmenu" class="align-center">
     <ul>
-      <li class="{% active origin %} has-sub"><a href="/origin"><span>關於本會</span></a>
+      <li class="{{ is_origin }} has-sub"><a href="/origin"><span>關於本會</span></a>
         <ul >
           <li><a href="/origin"><span>本會緣起</span></a></li>
           <li><a href="/purpose"><span>本會宗旨與願景</span></a></li>
           <li><a href="/regulation"><span>本會組織章程</span></a></li>
-          <li class="{% active architecture %} has-sub"><a href="/architecture"><span>本會組織架構</span></a>
+          <li class=" has-sub"><a href="/architecture"><span>本會組織架構</span></a>
             <ul>
               <li><a href="#"><span>現任理監事</span></a></li>
               <li><a href="#"><span>歷任理監事</span></a></li>
@@ -17,7 +20,7 @@
         </ul>
       </li>
 
-      <li class="{% active news %}"><a href="/news"><span>最新公告</span></a></li>
+      <li class="{{ is_news }}"><a href="/news"><span>最新公告</span></a></li>
 
       <li class="has-sub"><a href="#"><span>活動報導</span></a>
         <ul >
