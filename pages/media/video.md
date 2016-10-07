@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 影音播放
-permalink: /media/video
+permalink: /media/video/
 ---
 
 <h3>網站影片</h3>

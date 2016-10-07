@@ -1,5 +1,6 @@
 {% if page.url contains "origin" %} {% assign is_origin = 'active' %} {% endif %}
 {% if page.url contains "news" %} {% assign is_news = 'active' %} {% endif %}
+{% if page.url contains "activityReport" %} {% assign is_activityReport = 'active' %} {% endif %}
 {% if page.url contains "media" %} {% assign is_media = 'active' %} {% endif %}
 
 <header class="zerogrid">
@@ -23,10 +24,10 @@
 
       <li class="{{ is_news }}"><a href="/news"><span>最新公告</span></a></li>
 
-      <li class="has-sub"><a href="#"><span>活動報導</span></a>
+      <li class="{{ is_activityReport }} has-sub"><a href="/activityReport"><span>活動報導</span></a>
         <ul >
           <li><a href="#"><span>機構關懷</span></a></li>
-          <li><a href="#"><span>慈善濟助</span></a></li>
+          <li><a href="/activityReport/relief"><span>慈善濟助</span></a></li>
           <li><a href="#"><span>施棺捐贈</span></a></li>
         </ul>
       </li>
