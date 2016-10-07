@@ -1,8 +1,9 @@
 {% if page.url contains "origin" %} {% assign is_origin = 'active' %} {% endif %}
 {% if page.url contains "news" %} {% assign is_news = 'active' %} {% endif %}
+{% if page.url contains "media" %} {% assign is_media = 'active' %} {% endif %}
 
 <header class="zerogrid">
-  <div class="logo"><a href="../index.html"><img src="../../images/test.png"></a></div>
+  <div class="logo"><a href="/index.html"><img src="/images/logo.png"></a></div>
   <div id="cssmenu" class="align-center">
     <ul>
       <li class="{{ is_origin }} has-sub"><a href="/origin"><span>關於本會</span></a>
@@ -57,10 +58,10 @@
 
       <li><a href="#"><span>加入本會</span></a></li>
 
-      <li class="has-sub"><a href="#"><span>影音專區</span></a>
+      <li class="{{ is_media }} has-sub"><a href="#"><span>影音專區</span></a>
         <ul >
-          <li><a href="#"><span>電子相簿</span></a></li>
-          <li><a href="#"><span>影音撥放</span></a></li>
+          <li><a href="/media/album"><span>電子相簿</span></a></li>
+          <li><a href="/media/video"><span>影音撥放</span></a></li>
         </ul>
       </li>
 
