@@ -54,8 +54,6 @@ prose:
           element: "hidden"
           value: "true"
 
-youtube_videos:
-  - name: youtube 影片1
-    url: https://www.youtube.com/embed/kwFU6m1aTtU
-  - name: yotubue 影片2
-    url: https://www.youtube.com/embed/KZ3qil9S9fM
+# youtube_videos:
+#  - name: Sample video
+#    url: https://www.youtube.com/embed/kwFU6m1aTtU

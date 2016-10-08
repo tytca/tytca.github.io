@@ -5,6 +5,7 @@ permalink: /media/video
 ---
 
 <h3>網站影片</h3>
+<p></p>
 
 {% for video in site.static_files %}
 {% if video.path contains 'static_files/video' %}
@@ -17,6 +18,8 @@ Your browser does not support the video tag.
 
 <br>
 
+{% if site.youtube_videos.size > 0 %}
+
 <h3>Youtube 影片</h3>
 
 {% for video in site.youtube_videos %}
@@ -24,4 +27,6 @@ Your browser does not support the video tag.
 <p>{{video.name}}</p>
 <iframe width="560" height="315" src="{{video.url}}" frameborder="0" allowfullscreen></iframe>
 </div>
-{% endfor %}
+{% endfor %}ope
+
+{% endif %}
