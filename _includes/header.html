@@ -1,10 +1,13 @@
 {% if page.url contains "origin" %} {% assign is_origin = 'active' %} {% endif %}
 {% if page.url contains "news" %} {% assign is_news = 'active' %} {% endif %}
 {% if page.url contains "activityReport" %} {% assign is_activityReport = 'active' %} {% endif %}
+{% if page.url contains "volunteer" %} {% assign is_volunteer = 'active' %} {% endif %}
+{% if page.url contains "donation" %} {% assign is_donation = 'active' %} {% endif %}
+{% if page.url contains "training" %} {% assign is_training = 'active' %} {% endif %}
 {% if page.url contains "media" %} {% assign is_media = 'active' %} {% endif %}
 
 <header class="zerogrid">
-  <div class="logo"><a href="/index.html"><img src="/images/logo.png"></a></div>
+  <div class="logo"><a href="/index.html"><img src="/images/index.png"></a></div>
   <div id="cssmenu" class="align-center">
     <ul>
       <li class="{{ is_origin }} has-sub"><a href="/origin"><span>關於本會</span></a>
@@ -24,40 +27,40 @@
 
       <li class="{{ is_news }}"><a href="/news"><span>最新公告</span></a></li>
 
-      <li class="{{is_activityReport}} has-sub"><a href="/activityReport"><span>活動報導</span></a>
+      <li class="{{is_activityReport}} has-sub"><a href="/activityReport/relief"><span>活動報導</span></a>
         <ul >
-          <li><a href="#"><span>機構關懷</span></a></li>
+          <!-- <li><a href="#"><span>機構關懷</span></a></li> -->
           <li><a href="/activityReport/relief"><span>慈善濟助</span></a></li>
-          <li><a href="#"><span>施棺捐贈</span></a></li>
+          <!-- <li><a href="#"><span>施棺捐贈</span></a></li> -->
         </ul>
       </li>
 
-      <li class="has-sub"><a href="#"><span>中華慈雲志工隊</span></a>
+      <li class="{{is_volunteer}} has-sub"><a href="/volunteer"><span>中華慈雲志工隊</span></a>
         <ul >
-          <li><a href="#"><span>組織章程</span></a></li>
-          <li><a href="#"><span>教育訓練</span></a></li>
-          <li><a href="../recruit"><span>招募志工</span></a></li>
-          <li><a href="#"><span>志工園地</span></a></li>
+          <li><a href="/volunteer"><span>組織章程</span></a></li>
+          <!-- <li><a href="#"><span>教育訓練</span></a></li> -->
+          <li><a href="/volunteer/recruit"><span>招募志工</span></a></li>
+          <!-- <li><a href="#"><span>志工園地</span></a></li> -->
         </ul>
       </li>
 
-      <li class="has-sub"><a href="#"><span>捐款徵信</span></a>
+      <li class="{{is_donation}} has-sub"><a href="/donation/barcode"><span>捐款徵信</span></a>
         <ul >
-          <li><a href="#"><span>捐款徵信</span></a></li>
-          <li><a href="../barcode"><span>愛心碼發票</span></a></li>
-          <li><a href="../donation"><span>捐款方式</span></a></li>
+          <!-- <li><a href="#"><span>捐款徵信</span></a></li> -->
+          <li><a href="/donation/barcode"><span>愛心碼發票</span></a></li>
+          <li><a href="/donation/donation"><span>捐款方式</span></a></li>
         </ul>
       </li>
 
-      <li class="has-sub"><a href="#"><span>教育訓練</span></a>
+      <li class="{{is_training}} has-sub"><a href="/training/careWorkerTraining"><span>教育訓練</span></a>
         <ul >
-          <li><a href="#"><span>志願服務基礎訓練</span></a></li>
-          <li><a href="#"><span>志願服務特殊訓練</span></a></li>
-          <li><a href="../careWorkerTraining"><span>照顧服務員職業訓練</span></a></li>
+          <!-- <li><a href="#"><span>志願服務基礎訓練</span></a></li>
+          <li><a href="#"><span>志願服務特殊訓練</span></a></li> -->
+          <li><a href="/training/careWorkerTraining"><span>照顧服務員職業訓練</span></a></li>
         </ul>
       </li>
 
-      <li><a href="#"><span>加入本會</span></a></li>
+      <!-- <li><a href="#"><span>加入本會</span></a></li> -->
 
       <li class="{{ is_media }} has-sub"><a href="#"><span>影音專區</span></a>
         <ul >

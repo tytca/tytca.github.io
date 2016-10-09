@@ -1,8 +1,8 @@
 ---
 layout: imgPage
 title: 愛心碼發票
-img: barcode.png
-permalink: /barcode/
+img: ../../images/barcode.png
+permalink: /donation/barcode/
 ---
 
 本會愛心條碼如下<br/>
