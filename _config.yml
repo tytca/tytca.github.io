@@ -37,7 +37,7 @@ prose:
   rooturl: '_posts'
   siteurl: 'http://tytca.github.io/starter/'
   relativeLinks: 'http://tytca.github.io/starter/links.jsonp'
-  media: 'media'
+  media: 'static_files/upload_images'
   metadata:
     _posts:
       - name: "layout"
