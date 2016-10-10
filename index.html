@@ -1,95 +1,126 @@
 ---
-layout: page
+layout: default
 published: true
 ---
 
-<div style="background-color: #f2f2f2;padding:30px;margin:10px;">
-  <h1>最新公告</h1><br/>
-  <a href="{{ site.posts[0].url }}" style="font-size: 30px; text-decoration: underline; padding-left:50px"> {{ site.posts[0].title }}</a><span style="font-size: 30px;padding-left:60px">{{ site.posts[0].date | date: '%Y-%m-%d' }}</span>
-</div>
-<div style="background-color: #f2f2f2;padding:30px;margin:10px;">
-  <h1>隨機小語</h1><br/>
-  <div id="test" style="font-size: 30px;padding-left:50px"></div>
-</div>
-<div style="background-color: #f2f2f2;padding:30px;margin:10px;">
-  <h1>我們的服務</h1><br/>
-  <div class="zerogrid">
-    <div class="row" style="margin:0">
-      <div class="col-1-2">
-        <div class="row" style="margin:0">
-          <div class="col-1-4"><img src="/images/edu.png" /></div>
-          <div class="col-3-4">
-            <h3>教育訓練</h3>
-            <div>志工訓練</div>
-            <div>照顧服務員訓練</div>
-            <div>失業者訓練</div>
-            <div>梵唄班</div>
-          </div>
-        </div>
-        <br/><br/>
-      </div>
-      <div class="col-1-2">
-        <div class="row" style="margin:0">
-          <div class="col-1-4"><img src="/images/don.png" /></div>
-          <div class="col-3-4">
-            <h3>捐棺助葬</h3>
-            <div>本會持續與各公所辦理弱勢捐棺助葬等服務</div>
-          </div>
-        </div>
-        <br/><br/>
-      </div>
+<div class="row">
+    <div class="col-md-12">
+        <h4>隨機小語</h4>
     </div>
-    <div class="row" style="margin:0">
-      <div class="col-1-2">
-        <div class="row" style="margin:0">
-          <div class="col-1-4"><img src="/images/help.png" /></div>
-          <div class="col-3-4">
-            <h3>弱勢輔助</h3>
-            <div>每年度不定期辦理弱勢與偏鄉服務</div>
-          </div>
+    <div class="col-md-12">
+        <div class="well">
+            <span id="tip"></span>
         </div>
-        <br/><br/>
-      </div>
-      <div class="col-1-2">
-        <div class="row" style="margin:0">
-          <div class="col-1-4"><img src="/images/origin.png" style="width:100px; height:100px;"/></div>
-          <div class="col-3-4">
-            <h3>志工關懷</h3>
-            <div>成立志工服務團,主動辦理相關社服團體參訪,關懷服務活動</div>
-          </div>
-        </div>
-        <br/><br/>
-      </div>
     </div>
-  </div>
 </div>
 
-<div class="wrap-container">
-  <div id="main-content" class="zerogrid">
-    <article>
-      <div class="row" style="margin:0">
-        <div class="col-1-2" style="padding:10px">
-          <div class="embed-container maps">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.070157725696!2d121.57836731540624!3d25.133318840455935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ad9e700c5691%3A0x260c373855a642d6!2zMTEx5Y-w5YyX5biC5aOr5p6X5Y2A5bmz6I-B6KGXOTXlt7c0N-iZnw!5e0!3m2!1szh-TW!2stw!4v1471940592576" width="100%" height="450px" frameborder="0" style="border: 0"></iframe>
-          </div>
+<div class="row">
+    <div class="col-md-12">
+        <h4>最新公告</h4>
+    </div>
+    <div class="col-md-12">
+        <div class="well">
+            <span>{{ site.posts[0].date | date: '%Y-%m-%d' }}&nbsp;&nbsp;</span>
+            <a href="{{ site.posts[0].url }}">{{ site.posts[0].title }}</a>
         </div>
-        <div class="col-1-2" style="padding:10px">
-          <div class="embed-container maps">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.554121435357!2d121.41792011540421!3d24.981280446556028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34681d18d76a4e57%3A0x7f3f407526eb3a8b!2zMjM45paw5YyX5biC5qi55p6X5Y2A5YWr5b636KGXOTDomZ8!5e0!3m2!1szh-TW!2stw!4v1471941116187" width="100%" height="450px" frameborder="0" style="border: 0"></iframe>
-          </div>
-        </div>
-      </div>
-    </article>
-  </div>
+    </div>
 </div>
+
+<div class="row">
+    <div class="col-md-12">
+        <h4>我們的服務</h4>
+    </div>
+
+    <div class="col-md-12">
+        <div class="well">
+
+            <!-- 教育訓練與捐棺助葬 row start -->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img class="img-responsive img-rounded" src="/images/edu.png">
+                        </div>
+                        <div class="col-md-9">
+                            <div class="sub-title">教育訓練</div>
+                            <ul class="indent-list">
+                                <li>志工訓練</li>
+                                <li>照顧服務員訓練</li>
+                                <li>失業者訓練</li>
+                                <li>梵唄班</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img class="img-responsive img-rounded" src="/images/don.png">
+                        </div>
+                        <div class="col-md-9">
+                            <div class="sub-title">捐棺助葬</div>
+                            <div>本會持續與各公所辦理弱勢捐棺助葬等服務</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 教育訓練與捐棺助葬 row end -->
+
+            <!-- 弱勢輔助與志工關懷 row start -->
+            <div class="row top-buffer">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img class="img-responsive img-rounded" src="/images/help.png">
+                        </div>
+                        <div class="col-md-9">
+                            <div class="sub-title">弱勢輔助</div>
+                            <div>每年度不定期辦理弱勢與偏鄉服務</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img class="img-responsive img-rounded" src="/images/origin.png">
+                        </div>
+                        <div class="col-md-9">
+                            <div class="sub-title">志工關懷</div>
+                            <div>成立志工服務團,主動辦理相關社服團體參訪,關懷服務活動</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 弱勢輔助與志工關懷 row end -->
+
+        </div>
+    </div>
+
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <h4>平菁分部</h4>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.070157725696!2d121.57836731540624!3d25.133318840455935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ad9e700c5691%3A0x260c373855a642d6!2zMTEx5Y-w5YyX5biC5aOr5p6X5Y2A5bmz6I-B6KGXOTXlt7c0N-iZnw!5e0!3m2!1szh-TW!2stw!4v1471940592576"
+                width="100%" height="450px" frameborder="0" style="border: 0"></iframe>
+    </div>
+    <div class="col-md-6">
+        <h4>八德總部</h4>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.554121435357!2d121.41792011540421!3d24.981280446556028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34681d18d76a4e57%3A0x7f3f407526eb3a8b!2zMjM45paw5YyX5biC5qi55p6X5Y2A5YWr5b636KGXOTDomZ8!5e0!3m2!1szh-TW!2stw!4v1471941116187"
+                width="100%" height="450px" frameborder="0" style="border: 0"></iframe>
+    </div>
+</div>
+
+<!-- 隨機小語 -->
+<script src="/js/tip.js"></script>
 
 <script>
-$(".maps").click(function () {
-  $(".maps iframe").css("pointer-events", "auto");
-});
+    $(".maps").click(function () {
+        $(".maps iframe").css("pointer-events", "auto");
+    });
 
-$(".maps").mouseleave(function() {
-  $(".maps iframe").css("pointer-events", "none");
-});
-document.getElementById("test").innerHTML = Tip.getRandomTip();
+    $(".maps").mouseleave(function () {
+        $(".maps iframe").css("pointer-events", "none");
+    });
+    document.getElementById("tip").innerHTML = Tip.getRandomTip();
 </script>

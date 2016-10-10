@@ -6,69 +6,101 @@
 {% if page.url contains "training" %} {% assign is_training = 'active' %} {% endif %}
 {% if page.url contains "media" %} {% assign is_media = 'active' %} {% endif %}
 
-<header class="zerogrid">
-  <div class="logo"><a href="/index.html"><img src="/images/header.png"></a></div>
-  <div id="cssmenu" class="align-center">
-    <ul>
-      <li class="{{ is_origin }} has-sub"><a href="/origin"><span>關於本會</span></a>
-        <ul >
-          <li><a href="/origin"><span>本會緣起</span></a></li>
-          <li><a href="/origin/purpose"><span>本會宗旨與願景</span></a></li>
-          <li><a href="/origin/regulation"><span>本會組織章程</span></a></li>
-          <li class=" has-sub"><a href="/origin/architecture"><span>本會組織架構</span></a>
-            <ul>
-              <li><a href="/origin/currentSupervisor"><span>現任理監事</span></a></li>
-              <li><a href="/origin/formerlySupervisor"><span>歷任理監事</span></a></li>
+<div class="row">
+    <div class="col-md-12">
+        <a href="/index.html"><img class="img-responsive img-rounded" src="/images/header.png"></a>
+    </div>
+</div>
+
+<!-- Static navbar -->
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!--<a class="navbar-brand" href="/index.html">中華慈雲</a>-->
+        </div>
+        <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px; padding: 0">
+            <ul class="nav navbar-nav" style="margin-left: -15px">
+                <li class="{{is_origin}} dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                       role="button" aria-haspopup="true" aria-expanded="false">關於本會 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/origin/">本會緣起</a></li>
+                        <li><a href="/origin/purpose">本會宗旨與願景</a></li>
+                        <li><a href="/origin/regulation">本會組織章程</a></li>
+                        <li><a href="/origin/chronicle"><span>本會大事紀</span></a></li>
+                        <li role="separator" class="divider"></li>
+                        <li class="dropdown-header">本會組織架構</li>
+                        <li><a href="/origin/currentSupervisor">現任理監事</a></li>
+                        <li><a href="/origin/formerlySupervisor">歷任理監事</a></li>
+                    </ul>
+                </li>
+
+                <li class="{{is_news}}"><a href="/news">最新公告</a></li>
+
+                <li class="{{is_activityReport}} dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                       role="button" aria-haspopup="true" aria-expanded="false">活動報導 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <!-- <li><a href="#"><span>機構關懷</span></a></li> -->
+                        <li><a href="/activityReport/relief"><span>慈善濟助</span></a></li>
+                        <!-- <li><a href="#"><span>施棺捐贈</span></a></li> -->
+                    </ul>
+                </li>
+
+                <li class="{{is_volunteer}} dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                       role="button" aria-haspopup="true" aria-expanded="false">中華慈雲志工隊 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/volunteer"><span>組織章程</span></a></li>
+                        <!-- <li><a href="#"><span>教育訓練</span></a></li> -->
+                        <li><a href="/volunteer/recruit"><span>招募志工</span></a></li>
+                        <!-- <li><a href="#"><span>志工園地</span></a></li> -->
+                    </ul>
+                </li>
+
+                <li class="{{is_donation}} dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                       role="button" aria-haspopup="true" aria-expanded="false">捐款徵信 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <!-- <li><a href="#"><span>捐款徵信</span></a></li> -->
+                        <li><a href="/donation/barcode"><span>愛心碼發票</span></a></li>
+                        <li><a href="/donation/donation"><span>捐款方式</span></a></li>
+                    </ul>
+                </li>
+
+                <li class="{{is_training}} dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                       role="button" aria-haspopup="true" aria-expanded="false">教育訓練 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <!-- <li><a href="#"><span>志願服務基礎訓練</span></a></li>
+                        <li><a href="#"><span>志願服務特殊訓練</span></a></li> -->
+                        <li><a href="/training/careWorkerTraining"><span>照顧服務員職業訓練</span></a></li>
+                    </ul>
+                </li>
+
+                <!-- <li><a href="#"><span>加入本會</span></a></li> -->
+
+                <li class="{{is_media}} dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                       role="button" aria-haspopup="true" aria-expanded="false">影音專區 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/media/album"><span>電子相簿</span></a></li>
+                        <li><a href="/media/video"><span>影音撥放</span></a></li>
+                    </ul>
+                </li>
             </ul>
-          </li>
-          <li><a href="/origin/chronicle"><span>本會大事紀</span></a></li>
-        </ul>
-      </li>
 
-      <li class="{{ is_news }}"><a href="/news"><span>最新公告</span></a></li>
+            <ul class="nav navbar-nav navbar-right">
+            </ul>
 
-      <li class="{{is_activityReport}} has-sub"><a href="/activityReport/relief"><span>活動報導</span></a>
-        <ul >
-          <!-- <li><a href="#"><span>機構關懷</span></a></li> -->
-          <li><a href="/activityReport/relief"><span>慈善濟助</span></a></li>
-          <!-- <li><a href="#"><span>施棺捐贈</span></a></li> -->
-        </ul>
-      </li>
+        </div><!--/.nav-collapse -->
+    </div><!--/.container-fluid -->
+</nav>
 
-      <li class="{{is_volunteer}} has-sub"><a href="/volunteer"><span>中華慈雲志工隊</span></a>
-        <ul >
-          <li><a href="/volunteer"><span>組織章程</span></a></li>
-          <!-- <li><a href="#"><span>教育訓練</span></a></li> -->
-          <li><a href="/volunteer/recruit"><span>招募志工</span></a></li>
-          <!-- <li><a href="#"><span>志工園地</span></a></li> -->
-        </ul>
-      </li>
-
-      <li class="{{is_donation}} has-sub"><a href="/donation/barcode"><span>捐款徵信</span></a>
-        <ul >
-          <!-- <li><a href="#"><span>捐款徵信</span></a></li> -->
-          <li><a href="/donation/barcode"><span>愛心碼發票</span></a></li>
-          <li><a href="/donation/donation"><span>捐款方式</span></a></li>
-        </ul>
-      </li>
-
-      <li class="{{is_training}} has-sub"><a href="/training/careWorkerTraining"><span>教育訓練</span></a>
-        <ul >
-          <!-- <li><a href="#"><span>志願服務基礎訓練</span></a></li>
-          <li><a href="#"><span>志願服務特殊訓練</span></a></li> -->
-          <li><a href="/training/careWorkerTraining"><span>照顧服務員職業訓練</span></a></li>
-        </ul>
-      </li>
-
-      <!-- <li><a href="#"><span>加入本會</span></a></li> -->
-
-      <li class="{{ is_media }} has-sub"><a href="#"><span>影音專區</span></a>
-        <ul >
-          <li><a href="/media/album"><span>電子相簿</span></a></li>
-          <li><a href="/media/video"><span>影音撥放</span></a></li>
-        </ul>
-      </li>
-
-    </ul>
-  </div>
-</header>
