@@ -1,7 +1,7 @@
 ---
 layout: imgPage
 title: 本會宗旨與願景
-img: ../../images/cat.png
+img: ../../images/logo.png
 permalink: /origin/purpose/
 ---
 

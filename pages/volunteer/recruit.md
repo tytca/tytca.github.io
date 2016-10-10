@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 招募志工
-permalink: /recruit/
+permalink: /volunteer/recruit/
 ---
 
 邀您一起加入本會志工的行列!<br/>

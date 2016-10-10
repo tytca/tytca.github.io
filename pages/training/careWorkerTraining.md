@@ -1,8 +1,8 @@
 ---
 layout: imgPage
 title: 照顧服務員職業訓練
-img: careWorkerTraining.png
-permalink: /careWorkerTraining/
+img: ../../images/careWorkerTraining.png
+permalink: /training/careWorkerTraining/
 ---
 
 一、105年度補助辦理照顧服務員職業訓練招生簡章

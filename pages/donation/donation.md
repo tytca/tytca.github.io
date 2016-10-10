@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 捐款方式
-permalink: /donation/
+permalink: /donation/donation/
 ---
 
 捐款帳號  
