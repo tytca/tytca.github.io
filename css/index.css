@@ -12,8 +12,27 @@
     height:100px;
 }
 
+@media (max-width: 850px) {
+  .service-image {
+      width:80px;
+      height:80px;
+  }
+}
+
 @media (max-width: 750px) {
     .service-list-top-buffer {
         margin-top:20px;
     }
+}
+
+.index-map {
+  border: 0;
+  width: 100%;
+  height: 450px;
+}
+
+@media (max-width: 800px) {
+  .index-map {
+    height: 250px;
+  }
 }
