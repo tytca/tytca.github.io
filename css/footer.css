@@ -16,3 +16,16 @@ body {
     height: 165px;
     padding: 10px;
 }
+
+@media (min-width:751px){
+  .footer-icon-list {
+    text-align: right
+  }
+}
+
+@media (max-width:750px){
+  .footer-icon-list {
+     margin-top: 8px;
+     margin-left: -4px;
+  }
+}
