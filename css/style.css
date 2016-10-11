@@ -8,3 +8,12 @@ p > img {
     max-width: 100%;
     height: auto;
 }
+
+@font-face {
+    font-family: Microsoft JhengHei;
+    src: url(microsoft-jhenghei.woff);
+}
+
+body {
+  font-family: "Microsoft JhengHei","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
