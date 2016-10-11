@@ -8,8 +8,8 @@ permalink: /media/album
 
 {% for image in site.static_files %}
 {% if image.path contains 'static_files/album' %}
-<a href="#" onclick="openImage(this)">
-  <figure>
+<a style="cursor: pointer" onclick="openImage(this)">
+  <figure >
     <img src="{{image.path}}" alt="">
   </figure>
 </a>
@@ -41,9 +41,7 @@ var modal = document.getElementById('myModal');
 var modalImg = document.getElementById("img01");
 // var captionText = document.getElementById("caption");
 function openImage(a){
-    console.log(a);
     var img = a.getElementsByTagName('img')[0];
-    console.log(img);
     modal.style.display = "block";
     modalImg.src = img.src;
     // captionText.innerHTML = this.alt;
