@@ -1,48 +1,6 @@
-.img-grid {
-    font-size: 0;
+.img-div {
+  background: #ccc;
+  padding-top: 100%;
+  margin-top: 20px;
+  background-size: cover;
 }
-
-.img-grid a {
-    font-size: 16px;
-    overflow: hidden;
-    display: inline-block;
-    margin-bottom: 8px;
-    width: calc(50% - 4px);
-    margin-right: 8px;
-}
-
-.img-grid a:nth-of-type(2n) {
-    margin-right: 0;
-}
-
-@media screen and (min-width: 50em) {
-    .img-grid a {
-        width: calc(25% - 6px);
-    }
-
-    .img-grid a:nth-of-type(2n) {
-        margin-right: 8px;
-    }
-
-    .img-grid a:nth-of-type(4n) {
-        margin-right: 0;
-    }
-}
-
-.img-grid a:hover img {
-    transform: scale(1.15);
-}
-
-.img-grid figure {
-    margin: 0;
-}
-
-.img-grid img {
-    border: none;
-    max-width: 100%;
-    height: auto;
-    display: block;
-    background: #ccc;
-    transition: transform .2s ease-in-out;
-}
-

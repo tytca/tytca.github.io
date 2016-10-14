@@ -4,20 +4,22 @@ title: 電子相簿
 permalink: /media/album
 ---
 
-<div class="img-grid">
+<div class="row">
 
 {% for image in site.static_files %}
 {% if image.path contains 'static_files/album' %}
-<a style="cursor: pointer" onclick="openImage(this)">
-  <figure >
-    <img src="{{image.path}}" alt="">
-  </figure>
-</a>
+
+<div class="col-lg-2 col-md-3 col-sm-3 col-xs-3">
+    <a style="cursor: pointer" onclick="openImage(this)" data-img="{{image.path}}">
+    <div class="img-div" style="background-image: url('{{image.path}}');">
+    </div>
+    </a>
+</div>
+
 {% endif %}
 {% endfor %}
 
 </div>
-
 
 <!-- The Modal -->
 <div id="myModal" class="modal">
@@ -41,10 +43,8 @@ var modal = document.getElementById('myModal');
 var modalImg = document.getElementById("img01");
 // var captionText = document.getElementById("caption");
 function openImage(a){
-    var img = a.getElementsByTagName('img')[0];
     modal.style.display = "block";
-    modalImg.src = img.src;
-    // captionText.innerHTML = this.alt;
+    modalImg.src = a.getAttribute("data-img");
 }
 
 // Get the <span> element that closes the modal
