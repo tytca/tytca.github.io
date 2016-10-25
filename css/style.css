@@ -17,3 +17,17 @@ p > img {
 body {
   font-family: "Microsoft JhengHei","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 8px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 100%;
+}
