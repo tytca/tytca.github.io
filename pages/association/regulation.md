@@ -190,11 +190,11 @@ permalink: /origin/regulation/
 
 &nbsp;&nbsp;&nbsp;&nbsp;二、常年會費：            
 
-&nbsp;&nbsp;&nbsp;&nbsp;1.正式會員：個人會員每人每年壹仟貳佰元(每月壹佰元) 。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.正式會員：個人會員每人每年壹仟貳佰元(每月壹佰元) 。
 
-&nbsp;&nbsp;&nbsp;&nbsp;2.團體會員 : 每年壹萬元。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.團體會員 : 每年壹萬元。
 
-&nbsp;&nbsp;&nbsp;&nbsp;3.贊助會員：不定期隨喜贊助。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.贊助會員：不定期隨喜贊助。
 
 &nbsp;&nbsp;&nbsp;&nbsp;三、事業費。
 

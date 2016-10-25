@@ -3,7 +3,7 @@ layout: page
 title: 濟助項目及額度
 permalink: /activityReport/relief/
 ---
-<table>
+<table class="table table-bordered">
   <tbody>
     <tr>
       <td rowspan="2" style="text-align: center">
