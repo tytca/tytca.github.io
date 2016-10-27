@@ -9,7 +9,7 @@ empty_array: []
 {% assign album_folders = page.empty_array %}
 {% assign album_covers = page.empty_array %}
 
-{% for image in site.static_files %}
+{% for image in site.static_files reversed %}
 {% if image.path contains 'static_files/album' %}
 
 {% assign album_path = image.path | replace: '/static_files/album/', '' %}
@@ -19,25 +19,37 @@ empty_array: []
 {% if album_folders contains album_path %}
 {% else %}
 {% assign album_folders = album_folders | push: album_path %}
-{% assign album_covers = album_covers | push: image.path %}
 {% endif %}
 
 {% endif %}
 {% endfor %}
 
 
+{% for album_path in album_folders %}
+
+<h4>{{album_path}}</h4>
+
 <div class="row">
-{% for image in album_covers %}
+
+{% for image in site.static_files reversed %}
+{% if image.path contains album_path %}
+
 <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
-    <a style="cursor: pointer" onclick="openImage(this)" data-img="{{image}}">
-    <div class="img-div" style="background-image: url('{{image}}');">
+    <a style="cursor: pointer" onclick="openImage(this)" data-img="{{image.path}}">
+    <div class="img-div" style="background-image: url('{{image.path}}');">
     </div>
     </a>
     {%assign index = forloop.index | minus:1 %}
     <div class="album-title"><a href>{{album_folders[index]}}</a></div>
 </div>
+
+{% endif %}
 {% endfor %}
+
 </div>
+
+{% endfor %}
+
 
 
 
