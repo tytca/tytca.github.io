@@ -5,31 +5,31 @@ permalink: /activityReport/relief/
 ---
 <table class="table table-bordered">
   <tbody>
-    <tr>
-      <td rowspan="2" style="text-align: center">
+    <tr style="text-align: center">
+      <td rowspan="2">
         <p>項 次</p>
       </td>
-      <td rowspan="2" style="text-align: center">
+      <td rowspan="2">
         <p>類 別</p>
       </td>
-      <td rowspan="2" style="text-align: center">
+      <td rowspan="2">
         <p>項 目</p>
       </td>
-      <td colspan="2" style="text-align: center">
+      <td colspan="2">
         <p>濟　助　額　度</p>
       </td>
-      <td rowspan="2" style="text-align: center">
+      <td rowspan="2">
         <p>申請檢附證件</p>
       </td>
-      <td rowspan="2" style="text-align: center">
+      <td rowspan="2">
         <p>備 註</p>
       </td>
     </tr>
-    <tr>
-      <td style="text-align: center">
+    <tr style="text-align: center">
+      <td>
         <p>限 額 （元）</p>
       </td>
-      <td style="text-align: center">
+      <td>
         <p>計算單位</p>
       </td>
     </tr>

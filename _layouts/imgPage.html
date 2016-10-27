@@ -4,8 +4,12 @@ layout: default
 
 <h3>{{page.title}}</h3>
 
-<img class="img-responsive" src="../images/{{page.img}}" style="max-width:60%"/>
+<div class="row">
+  <div class="col-md-8 col-sm-10 col-xs-12">
+    <img class="img-responsive" src="../images/{{page.img}}"/>
+  </div>
+</div>
 
 <div class="top-buffer">
-    {{ content }}
+  {{ content }}
 </div>
