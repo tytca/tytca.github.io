@@ -6,15 +6,16 @@ html {
 }
 body {
     /* Margin bottom by footer height */
-    margin-bottom: 165px;
+    /*margin-bottom: 165px;*/
 }
 .footer {
-    position: absolute;
-    bottom: 0;
+    /*position: absolute;*/
+    /*bottom: 0;*/
     width: 100%;
     /* Set the fixed height of the footer here */
-    height: 165px;
-    padding: 10px 0;
+    height: auto;
+    padding-top: 10px;
+    color:#fff;
 }
 
 @media (min-width:751px){
