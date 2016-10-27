@@ -4,3 +4,8 @@
   margin-top: 20px;
   background-size: cover;
 }
+
+.album-title {
+  padding: 5px 0;
+  word-wrap: break-word;
+}

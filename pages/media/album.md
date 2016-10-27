@@ -2,24 +2,44 @@
 layout: page
 title: 電子相簿
 permalink: /media/album
+empty_array: []
 ---
 
-<div class="row">
+
+{% assign album_folders = page.empty_array %}
+{% assign album_covers = page.empty_array %}
 
 {% for image in site.static_files %}
 {% if image.path contains 'static_files/album' %}
 
-<div class="col-lg-2 col-md-3 col-sm-3 col-xs-3">
-    <a style="cursor: pointer" onclick="openImage(this)" data-img="{{image.path}}">
-    <div class="img-div" style="background-image: url('{{image.path}}');">
-    </div>
-    </a>
-</div>
+{% assign album_path = image.path | replace: '/static_files/album/', '' %}
+{% assign album_path = album_path | split: '/' %}
+{% assign album_path = album_path[0] %}
+
+{% if album_folders contains album_path %}
+{% else %}
+{% assign album_folders = album_folders | push: album_path %}
+{% assign album_covers = album_covers | push: image.path %}
+{% endif %}
 
 {% endif %}
 {% endfor %}
 
+
+<div class="row">
+{% for image in album_covers %}
+<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+    <a style="cursor: pointer" onclick="openImage(this)" data-img="{{image}}">
+    <div class="img-div" style="background-image: url('{{image}}');">
+    </div>
+    </a>
+    {%assign index = forloop.index | minus:1 %}
+    <div class="album-title"><a href>{{album_folders[index]}}</a></div>
 </div>
+{% endfor %}
+</div>
+
+
 
 <!-- The Modal -->
 <div id="myModal" class="modal">
