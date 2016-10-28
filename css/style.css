@@ -14,8 +14,20 @@ p > img {
     src: url(microsoft-jhenghei.woff);
 }
 
+h3{
+   background: linear-gradient(to right,#ffe3c2 ,#fff3e5);
+   padding:10px;
+   margin:0;
+   color:#512c02;
+   font-weight: 900;
+}
+
 body {
   font-family: "Microsoft JhengHei","Helvetica Neue",Helvetica,Arial,sans-serif;
+  background-color: #fff3e5;
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size:cover;
 }
 
 table, th, td {
