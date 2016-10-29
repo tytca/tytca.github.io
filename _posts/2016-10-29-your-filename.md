@@ -1,7 +1,7 @@
 ---
 published: true
 layout: page
-title: ''
+title: 測試公告
 ---
 測試公告
 
