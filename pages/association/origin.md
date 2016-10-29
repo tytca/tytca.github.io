@@ -1,7 +1,7 @@
 ---
 layout: imgPage
 title: 本會緣起
-img: origin.png
+img: origin.jpg
 permalink: /origin/
 ---
 
