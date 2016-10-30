@@ -1,3 +1,5 @@
+require 'fileutils'
+
 def create_front_matter(album_name)
   front_matter = ["---",
                   "layout: album",
@@ -13,19 +15,19 @@ album_paths = Dir["./static_files/album/*"]
 
 album_pages_path = "./pages/albums"
 
-`rm -rf #{album_pages_path}/*`
+FileUtils.rm_rf("#{album_pages_path}/.", secure: true)
 
 for album_path in album_paths
   album_name = album_path.split('/').last
   file_name = album_name + ".md"
   p "Generating file #{file_name}..."
   file_path = "#{album_pages_path}/#{file_name}"
-  `touch #{file_path}`
 
-  front_matter = create_front_matter(album_name)
-
-  for f in front_matter
-    `echo #{f} >> #{file_path}`
+  File.open(file_path, "w") do |file|
+    front_matter = create_front_matter(album_name)
+    for f in front_matter
+      file.puts(f)
+    end
   end
-
+  
 end
