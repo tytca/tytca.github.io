@@ -1,5 +1,9 @@
 # TYTCA
 
+## How-tos
+
+- [更新最新公告](how_tos/create_news.md)
+
 ## 更新相簿頁面
 
 (1) 將要新增的相簿放到 `/static_files/album` 底下，資料夾名稱將會是相簿名稱，開頭最好是日期，
