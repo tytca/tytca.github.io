@@ -3,9 +3,9 @@ require 'fileutils'
 def create_front_matter(album_name)
   front_matter = ["---",
                   "layout: album",
-                  "permalink: /media/album/#{album_name}",
-                  "album_folder: '#{album_name}'",
-                  "title: 電子相簿 - #{album_name}",
+                  "permalink: \"/media/album/#{album_name}\"",
+                  "album_folder: \"#{album_name}\"",
+                  "title: \"電子相簿 - #{album_name}\"",
                   "---"]
   return front_matter
 end
@@ -29,5 +29,5 @@ for album_path in album_paths
       file.puts(f)
     end
   end
-  
+
 end
