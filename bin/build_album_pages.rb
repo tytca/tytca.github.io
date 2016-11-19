@@ -3,7 +3,7 @@ require 'fileutils'
 def create_front_matter(album_name)
   front_matter = ["---",
                   "layout: album",
-                  "permalink: \"/media/album/#{album_name}\"",
+                  "permalink: /media/album/#{album_name}",
                   "album_folder: \"#{album_name}\"",
                   "title: \"電子相簿 - #{album_name}\"",
                   "---"]
@@ -23,7 +23,7 @@ for album_path in album_paths
   p "Generating file #{file_name}..."
   file_path = "#{album_pages_path}/#{file_name}"
 
-  File.open(file_path, "w") do |file|
+  File.open(file_path, "w:UTF-8") do |file|
     front_matter = create_front_matter(album_name)
     for f in front_matter
       file.puts(f)
