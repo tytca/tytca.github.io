@@ -1,36 +1,25 @@
 ---
 layout: page
-title: 濟助項目及額度
+title: 濟助項目
 permalink: /activityReport/relief/
 ---
 <table class="table table-bordered">
   <tbody>
     <tr style="text-align: center">
-      <td rowspan="2">
+      <td>
         <p>項 次</p>
       </td>
-      <td rowspan="2">
+      <td>
         <p>類 別</p>
       </td>
-      <td rowspan="2">
+      <td>
         <p>項 目</p>
       </td>
-      <td colspan="2">
-        <p>濟　助　額　度</p>
-      </td>
-      <td rowspan="2">
+      <td>
         <p>申請檢附證件</p>
       </td>
-      <td rowspan="2">
+      <td>
         <p>備 註</p>
-      </td>
-    </tr>
-    <tr style="text-align: center">
-      <td>
-        <p>限 額 （元）</p>
-      </td>
-      <td>
-        <p>計算單位</p>
       </td>
     </tr>
     <tr>
@@ -42,12 +31,6 @@ permalink: /activityReport/relief/
       </td>
       <td>
         <p>1.疾病就醫，無力負擔醫療費用者</p>
-      </td>
-      <td>
-        <p>20,000元以內</p>
-      </td>
-      <td>
-        <p>一戶</p>
       </td>
       <td rowspan="5">
         <p>1.急難濟助提案表。</p>
@@ -62,44 +45,20 @@ permalink: /activityReport/relief/
       <td>
         <p>2.火.水.震.爆意外事故，無力處理者</p>
       </td>
-      <td>
-        <p>15,000元以內</p>
-      </td>
-      <td>
-        <p>一戶</p>
-      </td>
     </tr>
     <tr>
       <td>
         <p>3．遺孤.遺老.生計無依無援者</p>
-      </td>
-      <td>
-        <p>20,000元以內</p>
-      </td>
-      <td>
-        <p>一戶</p>
       </td>
     </tr>
     <tr>
       <td>
         <p>4.殘疾無力謀生或就醫者</p>
       </td>
-      <td>
-        <p>20,000元以內</p>
-      </td>
-      <td>
-        <p>一戶</p>
-      </td>
     </tr>
     <tr>
       <td>
         <p>5.生育費用無力支付者</p>
-      </td>
-      <td>
-        <p>15,000元以內</p>
-      </td>
-      <td>
-        <p>一戶</p>
       </td>
     </tr>
     <tr>
@@ -111,12 +70,6 @@ permalink: /activityReport/relief/
       </td>
       <td>
         <p>1.家境貧困、主要謀生支柱亡故者</p>
-      </td>
-      <td>
-        <p>20,000元以內</p>
-      </td>
-      <td>
-        <p>一戶</p>
       </td>
       <td rowspan="2">
         <p>1.急難濟助提案表。</p>
@@ -132,12 +85,6 @@ permalink: /activityReport/relief/
       <td>
         <p>2.家境貧困，無力購買喪葬棺木者</p>
       </td>
-      <td>
-        <p>15,000元以內</p>
-      </td>
-      <td>
-        <p>一戶</p>
-      </td>
     </tr>
     <tr>
       <td>
@@ -148,13 +95,6 @@ permalink: /activityReport/relief/
       </td>
       <td>
         <p>為鼓勵學子努力向學爭取好成績以之鼓勵</p>
-      </td>
-      <td>
-        <p>1.大專院校：5,000元</p>
-        <p>2.高中、高職：3,000元</p>
-      </td>
-      <td>
-        <p>一名</p>
       </td>
       <td>
         <p>1.成績單正本</p>
@@ -178,12 +118,6 @@ permalink: /activityReport/relief/
       <td>
         <p>1.孤兒院或安養院所訪問</p>
       </td>
-      <td>
-        <p>50,000元以內</p>
-      </td>
-      <td>
-        <p>一院所</p>
-      </td>
       <td rowspan="2">
         <p>1.院(所、社)之收據</p>
         <p>2.訪問計劃表、或訪問過程記要及活動照片。</p>
@@ -196,12 +130,6 @@ permalink: /activityReport/relief/
       <td>
         <p>2.殘障或其他社會公益團體訪問</p>
       </td>
-      <td>
-        <p>50,000元以內</p>
-      </td>
-      <td>
-        <p>一院社</p>
-      </td>
     </tr>
     <tr>
       <td>
@@ -212,16 +140,6 @@ permalink: /activityReport/relief/
       </td>
       <td>
         <p>貧困家庭冬令濟助渡寒冬</p>
-      </td>
-      <td>
-        <p>1.戶長：2,000/人</p>
-        <p>2.大人：1,000/人</p>
-        <p>3.小孩：500/人</p>
-      </td>
-      <td>
-        <p>1.一戶一名</p>
-        <p>2.依大人數</p>
-        <p>3.依兒童數</p>
       </td>
       <td>
         <p>原「濟助提案表」存檔資料複查彙列，視需要再行實地 查訪。</p>
@@ -244,12 +162,6 @@ permalink: /activityReport/relief/
         <p>會員之直系親屬：祖父母、父母、子女或養父母亡故者</p>
       </td>
       <td>
-        <p>1,500以內</p>
-      </td>
-      <td>
-        <p>一戶</p>
-      </td>
-      <td>
         <p>訃文或收據</p>
       </td>
       <td>
@@ -267,12 +179,6 @@ permalink: /activityReport/relief/
         <p>大面積之自然災害如天災、地震、人禍所造成</p>
       </td>
       <td>
-        <p>以實際需求之食物及日用品為主</p>
-      </td>
-      <td>
-        <p>一事故</p>
-      </td>
-      <td>
         <p>或以金錢捐助救災單位</p>
       </td>
       <td>
@@ -288,12 +194,6 @@ permalink: /activityReport/relief/
       </td>
       <td >
         <p>疾病、意外、天災、人為因素造成之重大變故使生活發生困難者</p>
-      </td>
-      <td>
-        <p>30,000元以內</p>
-      </td>
-      <td>
-        <p>一戶</p>
       </td>
       <td>
         <p>派員實際訪查</p>
