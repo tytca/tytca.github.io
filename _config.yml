@@ -26,6 +26,10 @@ github_username:  tytca
 markdown: kramdown
 # theme: minima
 
+kramdown:
+  input:          GFM
+  hard_wrap:      true
+
 defaults:
   -
     scope:
