@@ -5,6 +5,7 @@
 {% if page.url contains "donation" %} {% assign is_donation = 'active' %} {% endif %}
 {% if page.url contains "training" %} {% assign is_training = 'active' %} {% endif %}
 {% if page.url contains "media" %} {% assign is_media = 'active' %} {% endif %}
+{% if page.url contains "calendar" %} {% assign is_calendar = 'active' %} {% endif %}
 
 <div class="row">
     <div class="col-md-12">
@@ -44,6 +45,8 @@
                 </li>
 
                 <li class="{{is_news}}"><a href="/news">最新公告</a></li>
+
+                <li class="{{is_calendar}}"><a href="/calendar">行事曆</a></li>
 
                 <li class="{{is_activityReport}} dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"
