@@ -1,7 +1,7 @@
 ---
 layout: imgPage
 title: 照顧服務員職業訓練
-img: ../../images/careWorkerTraining.png
+img: ../../images/careWorkerTraining106.png
 permalink: /training/careWorkerTraining/
 ---
 
