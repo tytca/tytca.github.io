@@ -3,5 +3,6 @@
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: #660000
+  color: #660000;
+  background: #ffccb3;
 }
