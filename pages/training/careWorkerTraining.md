@@ -1,7 +1,7 @@
 ---
 layout: imgPage
-title: 照顧服務員職業訓練
-img: ../../images/careWorkerTraining106.png
+title: 新北市照顧服務員第八期招生公告
+img: ../../images/poster.jpg
 permalink: /training/careWorkerTraining/
 ---
 
