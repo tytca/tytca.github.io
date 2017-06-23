@@ -18,6 +18,8 @@ permalink: /donation/donation/
 
 戶名:社團法人中華慈雲慈善利生推廣協會
 
-<a href="https://donate.spgateway.com/中華慈雲慈善利生推廣協會/愛心捐款">智付通捐款平台</a>
+<br/>
+
+<a href="https://donate.spgateway.com/中華慈雲慈善利生推廣協會/愛心捐款">智付通捐款平台</a>     
 受捐單位: 社團法人中華慈雲慈善利生推廣協會　( 愛心捐款 )
 
