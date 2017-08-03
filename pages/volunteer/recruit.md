@@ -111,4 +111,4 @@ permalink: /volunteer/recruit/
 </table>
 
 
-報名表：「社區照顧關懷中心」志工報名表 - [下載](/static_files/doc/關懷據點志工報名表.docx)
+報名表：「社區照顧關懷中心」志工報名表 - [下載](/static_files/doc/關懷據點志工報名表.doc)
