@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 106年1-2月捐款資料徵信
+title: 106年1-2月捐款明細表
 permalink: /donation/106detail/
 ---
 106年1~2月捐款明細表				
