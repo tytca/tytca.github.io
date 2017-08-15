@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 影音播放
+title: 電子報
 permalink: /media/newsletter
 ---
 
