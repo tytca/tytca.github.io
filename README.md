@@ -13,7 +13,7 @@
 
 (3) 執行 `git commit -am "Update albums"` 與 `git push`，完成更新相簿。
 
-## 關於編輯後台
+## 關於 編輯後台
 
 編輯後台使用Open Source [Prose](https://github.com/prose/prose)，其可以編輯Github上的文件。   
 但為了解決其中文標題空白以及預設`published:false`等問題，fork一份到`https://github.com/tytca/prose`進行修改，
