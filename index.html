@@ -5,23 +5,23 @@ published: true
 
 <div class="row">
     <div class="col-sm-12">
-        <h3><img src="/images/icon.png"/>開悟小語</h3>
-    </div>
-    <div class="col-sm-12">
-        <div class="well">
-            <span id="tip"></span>
-        </div>
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-sm-12">
         <h3><img src="/images/icon.png"/>最新公告</h3>
     </div>
     <div class="col-sm-12">
         <div class="well">
             <span>{{ site.posts[0].date | date: '%Y-%m-%d' }}&nbsp;&nbsp;</span>
             <a href="{{ site.posts[0].url }}">{{ site.posts[0].title }}</a>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12">
+        <h3><img src="/images/icon.png"/>開悟小語</h3>
+    </div>
+    <div class="col-sm-12">
+        <div class="well">
+            <span id="tip"></span>
         </div>
     </div>
 </div>
