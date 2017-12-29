@@ -35,7 +35,7 @@ empty_array: []
 
 
 
-<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-top: 10px;">
+<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 10px; height: 210px">
     <a href="{{album_page}}">
     <div class="img-div" style="background-image: url('{{cover_image}}');">
     </div>
