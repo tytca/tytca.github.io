@@ -55,7 +55,7 @@ permalink: /origin/service/
  
 <br/>
 
-<b>參、慈善機構關懷訪視<b/>
+<b>參、慈善機構關懷訪視<b/>    
 一、關懷對象：
  &nbsp;&nbsp;&nbsp;&nbsp;1.育幼院、教養院、安養院所...等社會福利機構。
  &nbsp;&nbsp;&nbsp;&nbsp;2.其他社會公益團體。
