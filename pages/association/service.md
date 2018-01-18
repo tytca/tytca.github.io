@@ -4,8 +4,7 @@ title: 本會服務項目
 permalink: /origin/service/
 ---
 
-<h2>社團法人中華慈雲慈善利生推廣協會</h2>
-<h2>服務項目及額度</h2>
+<h2>社團法人中華慈雲慈善利生推廣協會 - 服務項目及額度</h2>
 
 <br/>
 
@@ -55,7 +54,7 @@ permalink: /origin/service/
  
 <br/>
 
-<b>參、慈善機構關懷訪視<b/>    
+<b>參、慈善機構關懷訪視</b>    
 一、關懷對象：
  &nbsp;&nbsp;&nbsp;&nbsp;1.育幼院、教養院、安養院所...等社會福利機構。
  &nbsp;&nbsp;&nbsp;&nbsp;2.其他社會公益團體。
