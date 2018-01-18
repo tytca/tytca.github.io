@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 本會服務項目
-permalink: /origin/service/
+permalink: /origin/serviceItems/
 ---
 
 <h2>社團法人中華慈雲慈善利生推廣協會 - 服務項目及額度</h2>
