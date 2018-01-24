@@ -1,7 +1,7 @@
 ---
 layout: imgPage
 title: 本會組織架構
-img: ../architecture.png
+img: ../../images/architecture.png
 permalink: /origin/architecture/
 ---
 
