@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /stronghold/volunteer
+permalink: /stronghold/strongholdVolunteer
 title: "「慈雲關懷據點」招募志工"
 ---
 
