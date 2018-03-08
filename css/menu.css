@@ -7,12 +7,12 @@
   background: #ffccb3;
 }
 
-.menu-title {
+.navbar-header .menu-title {
   display: none;
 }
 
 @media (max-width: 850px) {
-  .menu-title {
+  .navbar-header .menu-title {
      display: inline-block; 
      margin: 15px;
   }
