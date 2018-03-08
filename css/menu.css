@@ -6,3 +6,10 @@
   color: #660000;
   background: #ffccb3;
 }
+
+@media (max-width: 850px) {
+  .menu-title {
+     display: inline-block; 
+     margin: 15px;
+  }
+}
