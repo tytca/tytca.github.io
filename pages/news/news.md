@@ -18,7 +18,7 @@ permalink: /news/
       <span>{{ post.date | date: '%Y-%m-%d' }}</span>
       <span style="margin-left:5px">{{ post.title }}</span>
     </a>
-    {% if forloop.index == 1 %}
+    {% if forloop.index <= 2 %}
       <span style="margin-left:5px" class="label label-danger">最新</span>
     {% endif %}
     </li>
