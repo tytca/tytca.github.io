@@ -4,7 +4,7 @@ title: 歷任理監事
 permalink: /origin/formerlySupervisor/
 ---
 
-# 第一屆理、監事名單
+# 第一屆理監事
 
 | 職   稱 | 姓     名 |
 | ------| ------ |
@@ -29,8 +29,9 @@ permalink: /origin/formerlySupervisor/
 | 監   事 | 余江月貞 |
 | 監   事 | 余 慧 美 |
 
+<br/><br/>
 
-# 第二屆理、監事名單
+# 第二屆理監事
 
 | 職   稱 | 姓     名 |
 | ------| ------ |
